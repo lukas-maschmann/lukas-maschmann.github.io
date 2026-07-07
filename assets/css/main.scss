@@ -14,3 +14,59 @@ a:active {
   color: inherit !important;
   text-decoration: underline;
 }
+.tag-post-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.tag-post-card {
+  display: block;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.tag-post-main-link {
+  color: inherit !important;
+  text-decoration: none;
+}
+
+.tag-post-main-link:hover {
+  text-decoration: underline;
+}
+
+.tag-post-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+  font-size: 1.05em;
+}
+
+.tag-post-card time {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.85em;
+  color: #666;
+}
+
+.post-tags {
+  margin: 0.5rem 0;
+}
+
+.post-tag {
+  display: inline-block;
+  margin-right: 0.35rem;
+  margin-bottom: 0.35rem;
+  padding: 0.15rem 0.45rem;
+  border: 1px solid #ddd;
+  border-radius: 999px;
+  font-size: 0.75em;
+  line-height: 1.4;
+  color: inherit !important;
+  text-decoration: none;
+}
+
+.post-tag:hover {
+  text-decoration: underline;
+}
