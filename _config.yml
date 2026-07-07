@@ -20,8 +20,8 @@ direction                : # "ltr" (default), "rtl" # set the direction of the p
 title                    : "Site Title"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Lukas Maschmann"
+description              : "Ph.D. Candidate at Lund University"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -123,7 +123,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-square-envelope"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:lukas.maschmann@nek.lu.se"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
