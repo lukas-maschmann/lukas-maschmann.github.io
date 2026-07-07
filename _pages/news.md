@@ -2,7 +2,7 @@
 layout: tag
 title: News
 permalink: /tags/news/
-taxonomy: news
+taxonomy: News
 author_profile: true
 classes: wide
 ---
