@@ -5,16 +5,50 @@ permalink: /research/
 author_profile: true
 classes: wide
 ---
+
 <style>
-  .publication a.paper-title,
-  .publication a.paper-title:visited,
-  .publication a.paper-title:hover,
-  .publication a.paper-title:active {
-    color: black !important;
+  /* Section headings */
+  .page__content section h2 {
+    margin-top: 2.5rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.35rem;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .page__content section:first-of-type h2 {
+    margin-top: 0;
+  }
+
+  /* Publication blocks */
+  .publication {
+    margin-bottom: 1.75rem;
+  }
+
+  .publication-title {
+    margin: 0 0 0.25rem 0;
+    line-height: 1.35;
+  }
+
+  .publication-title a,
+  .publication-title a:visited,
+  .publication-title a:hover,
+  .publication-title a:active {
+    color: inherit !important;
     text-decoration: underline;
   }
+
+  .publication-authors,
+  .publication-journal {
+    margin: 0.15rem 0;
+    line-height: 1.4;
+  }
+
+  .publication-journal {
+    font-style: italic;
+  }
+
   .abstract {
-    margin-top: 6px;
+    margin-top: 0.45rem;
   }
 
   .abstract summary {
@@ -25,93 +59,90 @@ classes: wide
   }
 
   .abstract p {
-    margin: 6px 0 0 0;
-    font-size: 0.7em;
+    margin: 0.45rem 0 0 0;
+    font-size: 0.85em;
     line-height: 1.5;
+  }
+
+  /* Dark mode support */
+  html[data-theme="dark"] .page__content section h2 {
+    border-bottom-color: #333;
   }
 </style>
 
-
- <section id="publications">
-    <h2>Publications</h2>
-
-    <!-- Add each publication below -->
+<section id="publications">
+  <h2>Publications</h2>
 
   <div class="publication">
-  <a
-    class="paper-title"
-    href="https://docs.iza.org/dp18301.pdf"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <strong>Cultural Origins of Preventive Health Care Utilization</strong>
-  </a><br>
-  with Jan Bietenbeck, Therese Nilsson and Devon Spika<br>
-  <em>Journal of Economic Behavior & Organization, accepted</em><br>
-   <details class="abstract">
-    <summary>Abstract</summary>
-    <p>
-     We examine whether culturally transmitted time and risk preferences help explain
-differences in preventive health care uptake. We combine individual-level survey
-data from 27 European countries with country-level preference measures from the
-Global Preferences Survey. To isolate cultural influences from institutional and eco-
-nomic confounders, we focus on second-generation immigrants, who were born and
-currently reside in the same country – and thus face the same institutional environ-
-ment and health care system – but whose parents originate from culturally distinct
-countries. We find that descendants of more patient cultures are more likely to use
-preventive services, while those from more risk-taking cultures are less likely to do
-so. These associations appear across multiple preventive care outcomes and remain
-robust to a wide range of socio-demographic and country-of-origin controls. The
-results highlight the role of culturally shaped preferences as a subtle but systematic
-determinant of preventive health behavior.
+    <p class="publication-title">
+      <a
+        href="https://docs.iza.org/dp18301.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <strong>Cultural Origins of Preventive Health Care Utilization</strong>
+      </a>
     </p>
-  </details>
-</div>
-</div>
- </section>
-<div style="height: 2rem;"></div>
 
- <section id="workinprogress">
-    <h2>Work in Progress</h2>
-   
-<div class="publication">
-  <a
-    class="paper-title">
-  <strong>Information, Framing and Educational Choice: Evidence from a Field Experiment</strong>
-  </a><br>
-  solo-authored.<br>
-  <em></em><br>
-   <details class="abstract">
-    <summary>Abstract</summary>
-     <p></p>
-   </details>
-</div>
+    <p class="publication-authors">
+      with Jan Bietenbeck, Therese Nilsson and Devon Spika
+    </p>
 
-   <div class="publication">
-  <a
-    class="paper-title">
-  <strong>Complexity Aversion and Educational Choice</strong>
-  </a><br>
-  with Pol Campos-Mercade, Roel van Veldhuizen and David Wendle<br>
-  <em></em><br>
-   <details class="abstract">
-    <summary>Abstract</summary>
-     <p></p>
-   </details>
-</div>
-   
-   <div class="publication">
-  <a
-    class="paper-title">
-  <strong>Human vs. AI: Who is Better in Evaluating News Impact on Finacial Markets?</strong>
-  </a><br>
-  with Pelle Almgren<br>
-  <em></em><br>
-   <details class="abstract">
-    <summary>Abstract</summary>
-     <p></p>
-   </details>
-</div>
- </section>
-   
-    
+    <p class="publication-journal">
+      Journal of Economic Behavior &amp; Organization, accepted
+    </p>
+
+    <details class="abstract">
+      <summary>Abstract</summary>
+      <p>
+        We examine whether culturally transmitted time and risk preferences help explain
+        differences in preventive health care uptake. We combine individual-level survey
+        data from 27 European countries with country-level preference measures from the
+        Global Preferences Survey. To isolate cultural influences from institutional and
+        economic confounders, we focus on second-generation immigrants, who were born and
+        currently reside in the same country — and thus face the same institutional
+        environment and health care system — but whose parents originate from culturally
+        distinct countries. We find that descendants of more patient cultures are more
+        likely to use preventive services, while those from more risk-taking cultures are
+        less likely to do so. These associations appear across multiple preventive care
+        outcomes and remain robust to a wide range of socio-demographic and
+        country-of-origin controls. The results highlight the role of culturally shaped
+        preferences as a subtle but systematic determinant of preventive health behavior.
+      </p>
+    </details>
+  </div>
+</section>
+
+<section id="workinprogress">
+  <h2>Work in Progress</h2>
+
+  <div class="publication">
+    <p class="publication-title">
+      <strong>Information, Framing and Educational Choice: Evidence from a Field Experiment</strong>
+    </p>
+
+    <p class="publication-authors">
+      solo-authored
+    </p>
+  </div>
+
+  <div class="publication">
+    <p class="publication-title">
+      <strong>Complexity Aversion and Educational Choice</strong>
+    </p>
+
+    <p class="publication-authors">
+      with Pol Campos-Mercade, Roel van Veldhuizen and David Wendle
+    </p>
+  </div>
+
+  <div class="publication">
+    <p class="publication-title">
+      <strong>Human vs. AI: Who is Better in Evaluating News Impact on Financial Markets?</strong>
+    </p>
+
+    <p class="publication-authors">
+      with Pelle Almgren
+    </p>
+  </div>
+</section>
