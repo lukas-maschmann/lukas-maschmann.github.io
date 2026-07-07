@@ -332,7 +332,6 @@ defaults:
       share: true
       related: true
 
-head_scripts:
-  - /assets/js/dark-mode.js
+
 
 
