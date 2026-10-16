@@ -8,7 +8,7 @@ classes: wide
 
 <p>
   <a
-    href="{{ '/assets/pdfs/Lukas_Maschmann_CV.pdf' | relative_url }}"
+    href="{{ '/assets/pdfs/CV.pdf' | relative_url }}"
     target="_blank"
     rel="noopener noreferrer"
     class="btn btn--primary"
@@ -19,7 +19,7 @@ classes: wide
 
 <div class="cv-pdf">
   <iframe
-    src="{{ '/assets/pdfs/Lukas_Maschmann_CV.pdf' | relative_url }}"
+    src="{{ '/assets/pdfs/CV.pdf' | relative_url }}"
     width="100%"
     height="900px"
     style="border: none;"
