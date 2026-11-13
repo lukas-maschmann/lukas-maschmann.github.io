@@ -19,7 +19,7 @@ classes: wide
 
 <div class="cv-pdf">
   <iframe
-    src="{{ '/assets/pdfs/CV.pdf' | relative_url }}"
+    src="{{ '/assets/pdfs/Lukas_Maschmann_CV.pdf' | relative_url }}"
     width="100%"
     height="900px"
     style="border: none;"
